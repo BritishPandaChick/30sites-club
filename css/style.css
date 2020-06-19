@@ -56,7 +56,7 @@ header nav ul li a:hover {
 /* Group */
 #group {
   height: 600px;
-  background: url('img/orange-leaves.jpg');
+  background: url('../img/orange-leaves.jpg');
   background-size: cover;
 }
 
