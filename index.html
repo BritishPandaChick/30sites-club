@@ -17,69 +17,116 @@
   </head>
   <body>
     <header>
-      <div class='col-xs-12 full-width'>
-        <div class='col-xs-6 half-width'>
-          <h1>Brave & Kindred Spirits</h1>
-        </div>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <h1><a class="navbar-brand" href="#">Mickey Mouse Club</a></h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class='col-xs-6 half-width'>
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Brave</a></li>
-              <li><a href="#">Resources</a></li>
-              <li><a href="#">Blog</a></li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Members</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Episodes</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meetings</a>
+              </li>
             </ul>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
     </header>
 
     <main>
-      <section id="group"></section>
+      <div class="container-fluid">
+        <section id="banner">
+          <div class="container">
+            <h3 class="text-center">Welcome to the</h3>
+            <h2 class="text-center">Mickey Mouse Club</h2>
+          </div>
+        </section>
 
-      <section id="events">
-        <div class="col-xs-12 full-width">
-          <div class="col-xs-3 third-width">
-            <h3>Brave Evergreen Challenge</h3>
-            <p>Lorem ipsum evergreen challenge information</p>
-            <button class="btn btn-block">Start now!</button>
+        <section id="opening">
+          <div class="container">
+            <iframe src="https://www.youtube.com/embed/nFPfS5YZWG0" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="col-xs-3 third-width">
-            <h3>Brave Resources</h3>
-            <p>Lorem ipsum evergreen challenge information</p>
-            <button class="btn btn-block">Show me now!</button>
-          </div>
-          <div class="col-xs-3 third-width">
-            <h3>Sign up for our newsletter!</h3>
-            <p>Lorem ipsum evergreen challenge information</p>
-            <button class="btn btn-block">Sign up now!</button>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="contact">
-        <div class="col-xs-12 full-width">
-          <div class='col-xs-6 half-width'>
-            <h3>Want to work with us?</h3>
-            <p>Contact us at example@example.com</p>
+        <section id="news">
+          <div class="container">
+            <h2>News</h2>
+            <div class="row">
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3>Headline</h3>
+                <p>He was seriously concerned that a cause of so little advantage to anyone should be forwarded at the sole expense of his brother-in-law, and he was determined, if possible, to find out the extent of his assistance, and to discharge the obligation as soon as he could.</p>
+                <button class="btn btn-block btn-info">Learn More</button>
+              </div>
+
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3>Headline</h3>
+                <p>He was seriously concerned that a cause of so little advantage to anyone should be forwarded at the sole expense of his brother-in-law, and he was determined, if possible, to find out the extent of his assistance, and to discharge the obligation as soon as he could.</p>
+                <button class="btn btn-block btn-info">Learn More</button>
+              </div>
+
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3>Headline</h3>
+                <p>He was seriously concerned that a cause of so little advantage to anyone should be forwarded at the sole expense of his brother-in-law, and he was determined, if possible, to find out the extent of his assistance, and to discharge the obligation as soon as he could.</p>
+                <button class="btn btn-block btn-info">Learn More</button>
+              </div>
+            </div>
           </div>
-          <div class='col-xs-6 half-width'>
-            <h3>Connect with us on social media</h3>
+        </section>
+
+        <section id="clubs">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="https://d23.com/app/uploads/2017/09/780w-463h_090817_timeline-of-mmc-3.jpg" alt="Mickey Mouse Club 1950" class="img-thumbnail" />
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-6"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <p>&copy; BritishPandaChick 2018 All Rights Reserved</p>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <nav>
-              <ul>
-                <li><i class="fab fa-facebook fa-3x"></i></li>
-                <li><i class="fab fa-twitter fa-3x"></i></li>
-                <li><i class="fab fa-pinterest fa-3x"></i></li>
-                <li><i class="fab fa-instagram fa-3x"></i></li>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
               </ul>
             </nav>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; BritishPandaChick 2018 All Rights Reserved</p>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
