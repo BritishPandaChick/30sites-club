@@ -66,6 +66,7 @@ header {
     }
 }
 
+/* Email */ 
 #email {
     background-color: $headline-color;
     color: #fff;
@@ -82,6 +83,7 @@ header {
     }
 }
 
+/* Opening */ 
 #opening {
     padding: 20px 0;
 
@@ -98,6 +100,7 @@ header {
     }
 }
 
+/* News */
 #news {
     padding: 20px 0;
 
@@ -105,5 +108,66 @@ header {
         font-size: 30px;
         font-family: $base-font;
         text-align: center;
+        color: $headline-color;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: "Times New Roman", serif;
+        color: $base-color;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Times New Roman", serif;
+        color: $base-color;
+        line-height: 32px;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+}
+
+/* Clubs */ 
+#clubs {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 30px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    img {
+        margin: 15px 0;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: "Times New Roman", serif;
+        color: $base-color;
+    }
+}
+
+/* Footer */ 
+footer {
+    background-color: $base-color;
+    color: #fff;
+    padding: 20px 0;
+
+    p {
+        font-size: 18px;
+        font-family: "Times New Roman", serif;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $hover-color;
     }
 }
