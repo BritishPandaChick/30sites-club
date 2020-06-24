@@ -1,0 +1,173 @@
+/* Sass Variables */ 
+$base-font: 'Cantarell';
+$headline-color: red;
+$hover-color: yellow;
+$base-color: #333;
+
+/* Base styles */ 
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background-color: $base-color;
+
+    h1 {
+        font-size: 45px;
+        font-family: $base-font;
+
+        a {
+            color: #fff;
+        }
+
+        a:hover {
+            color: $hover-color;
+        }
+    }
+
+    li {
+        font-size: 20px;
+        font-family: "Times New Roman", serif;
+
+        a {
+            color: #fff;
+        }
+
+        a {
+            color: $hover-color;
+        }
+    }
+}
+
+/* Banner */
+#banner {
+    background-image: url("https://s7d2.scene7.com/is/image/TWCNews/0322_n13_mickey_mouse_club_megacon");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+
+    .group {
+        padding: 250px 0;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: $base-font;
+        color: $headline-color;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: $base-font;
+        color: $headline-color;
+    }
+}
+
+/* Email */ 
+#email {
+    background-color: $headline-color;
+    color: #fff;
+    padding: 20px 0;
+
+    h2 {
+        font-size: 35px;
+        padding: 15px 0;
+    }
+
+    h3 {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+}
+
+/* Opening */ 
+#opening {
+    padding: 40px 0;
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 32px;
+        font-family: "Times New Roman", serif;
+    }
+}
+
+/* News */
+#news {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 40px;
+        font-family: $base-font;
+        text-align: center;
+        color: $headline-color;
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: "Times New Roman", serif;
+        color: $base-color;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: "Times New Roman", serif;
+        color: $base-color;
+        line-height: 32px;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+}
+
+/* Clubs */ 
+#clubs {
+    padding: 20px 0;
+
+    h2 {
+        font-size: 40px;
+        font-family: $base-font;
+        color: $headline-color;
+        text-align: center;
+    }
+
+    img {
+        margin: 15px 0;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: "Times New Roman", serif;
+        color: $base-color;
+    }
+}
+
+/* Footer */ 
+footer {
+    background-color: $base-color;
+    color: #fff;
+    padding: 20px 0;
+
+    p {
+        font-size: 16px;
+        font-family: "Times New Roman", serif;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $hover-color;
+    }
+}
