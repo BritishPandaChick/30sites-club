@@ -1,11 +1,17 @@
-# 30 Days, 30 Sites Club
-30 Days, 30 Sites Day 12 Club project. Made with HTML and CSS
+# 30 Days, 30 Sites Day 12: Club
+Mickey Mouse Club web page
+
+## Tech Stack
+- HTML
+- CSS
+- Bootstrap
 
 ## Instructions 
-Clone this repo or download the zip file. Open index.html file in your browser to see web page.
-
-## Contributions
-I will not be accepting pull requests.
+1. Clone this repo or download the zip file. 
+2. Open index.html file in your browser.
 
 ## Acknowledgements
 * 30 Days, 30 Sites
+* Google Fonts
+* Font Awesome
+* Bootstrap
